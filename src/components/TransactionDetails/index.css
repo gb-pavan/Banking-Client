@@ -2,34 +2,16 @@
     color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     background-color: rgba(19, 17, 30, 0.5) ;
     /*background-color: white;*/
+    height: 40vh;
 }
 
 th {
   border: 1px solid rgb(254, 249, 0);
 }
 
-
-
-
-/*
-.transaction-details {
-    overflow-y: auto;
-  }
-  
-  .transaction-details thead {
-    position: sticky;
-    top: 0;
-    z-index: 1;
-    background-color: #f7f7f7;
-  }
-  
-  .transaction-details tbody {
-    height: 300px;
-    overflow-y: auto;
-  }*/
 
   @media screen and (max-width: 576px) {
     .transaction-details{

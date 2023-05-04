@@ -14,7 +14,7 @@ function App() {
 
   return (
     <div className="App">      
-      {showLogin ? <LoginForm setShowBanker={setShowBanker} setShowLogin={setShowLogin} setBankerData={setBankerData} setSelectedCustomer={setSelectedCustomer} /> : (showBanker ? <CustomerDashBoard selectedCustomer={selectedCustomer} showLogin={showLogin} /> : <BankerDashBoard bankerData={bankerData} showLogin={showLogin} />)}
+      {showLogin ? <LoginForm setShowBanker={setShowBanker} setShowLogin={setShowLogin} setBankerData={setBankerData} setSelectedCustomer={setSelectedCustomer} /> : (showBanker ? <CustomerDashBoard selectedCustomer={selectedCustomer} showLogin={showLogin} setShowLogin={setShowLogin} /> : <BankerDashBoard bankerData={bankerData} showLogin={showLogin} setShowLogin={setShowLogin} />)}
     </div>
   );
 }

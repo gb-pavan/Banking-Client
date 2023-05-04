@@ -44,6 +44,11 @@
 }
 
 .button-withdraw{
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.button-logout{
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
 }

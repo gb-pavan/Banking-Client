@@ -15,7 +15,7 @@ const ShowCustomerTransactions = props => {
     const shouldFetch = false
 
 
-    const customerData = useFetch('http://localhost:3005/gettransactiondetails',method,isAfterLogin,selectedCustomer,shouldFetch)
+    const customerData = useFetch('https://banking-application-backend-render.onrender.com/gettransactiondetails',method,isAfterLogin,selectedCustomer,shouldFetch)
 
     return (
     <div className='customer-transaction-details'>

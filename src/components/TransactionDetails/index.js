@@ -17,7 +17,7 @@ const TransactionDetails = props => {
                     <th>Balance</th>
                 </tr>
             </thead>
-            <tbody className='customer-fetched-details2'>
+            <tbody>
                 {customerData.map(eachTransaction => (
                     <DisplayTransaction eachTransaction={eachTransaction} />              
                 ))}
