@@ -6,7 +6,9 @@ const WithdrawAmount = props => {
   const [amount, setAmount] = useState("");
   const [message, setMessage] = useState('');
   const [showMessage, setShowMessage] = useState(false);
-  const [showcolor, setShowcolor] = useState(false);
+  const [showColor, setShowColor] = useState(false);
+
+  const messageClass = showColor === 'true' ? "success-message" : "error-message";
 
 
  
@@ -49,8 +51,8 @@ const WithdrawAmount = props => {
       body: JSON.stringify(data),
     })
     .then(response => response.text())
-    .then(data => {setMessage(data); setShowMessage(true);setShowcolor(true)})
-    .catch(error => {setMessage(error) ;setShowMessage(true)})
+    .then(data => {setMessage(data); setShowMessage(true);setShowColor(true)})
+    .catch(error => {setMessage(error) ;setShowMessage(true);setShowColor(false)})
 
       /*.then(response => response.json())
       .then(data => {
@@ -63,7 +65,7 @@ const WithdrawAmount = props => {
       });*/
   }
 
-  const messageClass = showcolor ? "success-message" : "error-message";
+  
   
 
   return (

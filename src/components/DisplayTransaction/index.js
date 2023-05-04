@@ -15,11 +15,11 @@ const DisplayTransaction = props => {
     
     return (
         <tr key={eachTransaction.id}>
-            <td>{time}</td>
-            <td className={amountStyle} >{creditedBy}</td>
-            <td className={amountStyle} >{depositedTo}</td>
-            <td className={amountStyle} >{amoutVar}</td>
-            <td>{eachTransaction.Remaining_balance}</td>
+            <td style={{ width: '60px'}} >{time}</td>
+            <td style={{ width: '75px'}} className={amountStyle} >{creditedBy}</td>
+            <td style={{ width: '55px'}} className={amountStyle} >{depositedTo}</td>
+            <td style={{ width: '75px'}} className={amountStyle} >{amoutVar}$</td>
+            <td>{eachTransaction.Remaining_balance} $</td>
         </tr>
     )
 }

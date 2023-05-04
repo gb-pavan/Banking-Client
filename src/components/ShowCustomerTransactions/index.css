@@ -4,7 +4,6 @@
     justify-content: center;
     align-items: center;    
     background-color: rgba(19, 17, 30, 0.5) ;/*light blue with 50% opacity */
-    overflow-x: auto;
 }
 
 .go-back-button{
@@ -17,7 +16,7 @@
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
-        padding: 10px;                                                                                               
+        padding: 10px;                                                                                            
     }
 }
 

@@ -10,14 +10,14 @@ const TransactionDetails = props => {
         <table className='table-style'>
             <thead>
                 <tr>
-                    <th style={{ width: '200px'}}>Time</th>
+                    <th style={{ width: '260px'}}>Time</th>
                     <th style={{ width: '120px' }}>Credited By</th>
                     <th style={{ width: '120px' }}>Deposited To</th>
-                    <th style={{ width: '100px' }}>Amount(in Billion $)</th>
-                    <th>Acc.Balance in Billion $</th>
+                    <th style={{ width: '100px' }}>Amount</th>
+                    <th>Balance</th>
                 </tr>
             </thead>
-            <tbody>
+            <tbody className='customer-fetched-details2'>
                 {customerData.map(eachTransaction => (
                     <DisplayTransaction eachTransaction={eachTransaction} />              
                 ))}

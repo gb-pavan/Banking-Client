@@ -9,8 +9,8 @@
 
 @media screen and (max-width: 576px) {
     .customer-transaction-details{
-        background-color: transparent;
-        width: 100vw;
+        background-color: rgb(255, 0, 247);
+        width: 80vw;
         height: 100vh;
     }
 }

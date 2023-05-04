@@ -23,7 +23,7 @@
 
   @media screen and (max-width: 576px) {
     .tabs {
-        width: 280%;
+        width: 250%;
         margin-top: -40px;
     }
   }

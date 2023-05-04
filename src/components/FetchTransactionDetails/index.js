@@ -21,7 +21,7 @@ const FetchTransactionDetails = props => {
     console.log('customerData after fetching using UseFetch',customerData)
 
     return (
-    <div className='customer-transaction-details'>
+    <div className='customer-transaction-details2'>
         <TransactionDetails customerData={customerData} />
     </div>)
 }

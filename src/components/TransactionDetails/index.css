@@ -3,6 +3,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgba(19, 17, 30, 0.5) ;
     /*background-color: white;*/
 }
 
@@ -39,7 +40,18 @@ th {
       font-size: 12px;
       background-color: rgba(19, 17, 30, 0.5) ;
       height: 60vh;
+      width: 100vw;
       overflow: scroll;
+  }
+  .table-style{
+    display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+    font-size: 12px;
+    background-color:transparent;
+    /*padding: 40px;*/
+    width: 100vw;
   }
   .column-names{
     font-size: 13px;

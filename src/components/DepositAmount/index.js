@@ -60,11 +60,11 @@ const DepositAmount = props => {
         </div>
         <div className="form-row">
           <label htmlFor="toAccountNum" className="form-label">To Account Number:</label>
-          <input type="text" id="toAccountNum" name="toAccountNum" required value={toAccountNum} onChange={(e) => setToAccountNum(e.target.value)} />
+          <input type="text" id="toAccountNum" placeholder='Ashok : 4567890123' name="toAccountNum" required value={toAccountNum} onChange={(e) => setToAccountNum(e.target.value)} />
         </div>
         <div className="form-row">
           <label htmlFor="depositAmount" className="form-label">Deposit Amount:</label>
-          <input type="text" id="depositAmount" name="depositAmount" required value={depositAmount} onChange={(e) => setdepositAmount(e.target.value)} />
+          <input type="text" id="depositAmount" placeholder='Amount in $' name="depositAmount" required value={depositAmount} onChange={(e) => setdepositAmount(e.target.value)} />
         </div>
       </div>
       
