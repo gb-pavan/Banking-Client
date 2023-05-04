@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Banking-Client/static/css/main.b5e1826c.css",
+    "main.js": "/Banking-Client/static/js/main.e0f669f2.js",
+    "static/js/787.e7b59482.chunk.js": "/Banking-Client/static/js/787.e7b59482.chunk.js",
+    "index.html": "/Banking-Client/index.html",
+    "main.b5e1826c.css.map": "/Banking-Client/static/css/main.b5e1826c.css.map",
+    "main.e0f669f2.js.map": "/Banking-Client/static/js/main.e0f669f2.js.map",
+    "787.e7b59482.chunk.js.map": "/Banking-Client/static/js/787.e7b59482.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b5e1826c.css",
+    "static/js/main.e0f669f2.js"
+  ]
+}
